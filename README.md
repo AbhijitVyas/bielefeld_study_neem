@@ -27,7 +27,7 @@ Head over to the [RobCog Repository](https://github.com/robcog-iai/RobCoG) and f
 #### **Step 2: Checkout the Right Branch**  
 1. Once you've successfully cloned RobCog, switch to the **ApartmentAndPouring** branch. You can find it here: [RobCog ApartmentAndPouring Branch](https://github.com/AbhijitVyas/RobCoG/tree/ApartmentAndPouring).  
 Why this branch? Because it includes the latest updates for stable VR hands (thanks, Robin!).  
-2. Also while you are at it, checkout [Latest UsemLog Branch](https://github.com/AbhijitVyas/USemLog)
+2. Also while you are at it, checkout [Latest UsemLog Branch]([https://github.com/AbhijitVyas/USemLog](https://github.com/AbhijitVyas/USemLog/tree/REST_VR_LOGGING_WITH_VR_HANDS))
 3. Rest of the Plugins should be fine to checkout from standard repositories.
 
 #### **Step 3: Give It a Spin!**  
