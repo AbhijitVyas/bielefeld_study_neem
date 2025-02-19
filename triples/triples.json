@@ -1,0 +1,673 @@
+[
+  [
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Episode_XUTNJSOL",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Episode"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Episode_XUTNJSOL",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask_LNIQOTJH"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Episode_XUTNJSOL",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesAgent",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#NaturalPerson_CTYBCZBF"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Episode_XUTNJSOL",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesAction",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Action_FZCBOOKP"
+    }
+  ],
+  [
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson_CTYBCZBF",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ease-crc.org/ont/SOMA.owl#isPerformedBy",
+      "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson_CTYBCZBF"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1"
+    },
+    {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle1_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle2_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle3_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle4_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle5_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle6_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle7_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle8_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle9_1"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#particle10_1"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask_LNIQOTJH",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask_LNIQOTJH"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LDYLQTUK",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
+      "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LDYLQTUK"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LDYLQTUK",
+      "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalBegin",
+      "o": 1674729315
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LDYLQTUK",
+      "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalEnd",
+      "o": 1674729329
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle1_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle2_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle3_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle4_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle5_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle6_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle7_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle8_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle9_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#particle10_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#PouredObject_LDYLQTUK"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#DestinationContainer_1"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#SourceContainer_1"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#MovedObject_1"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#CylinderShape_1",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#CylinderShape"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Shape_1",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Shape"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Shape_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#CylinderShape_1"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+      "p": "http://www.ease-crc.org/ont/SOMA.owl#hasShape",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Shape_1"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#BlueColorRegion_1",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#BlueColor"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#BlueColor_1",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Color"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#BlueColor_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#BlueColorRegion_1"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+      "p": "http://www.ease-crc.org/ont/SOMA.owl#hasColor",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#BlueColor_1"
+    },
+    
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#TiltingMotion_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#MovedObject_1"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#AgentRole_1",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#AgentRole"
+    },
+    {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson_CTYBCZBF",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#AgentRole_1"
+    },
+    {
+      "s": "http://www.ease-crc.org/ont/SOMA.owl#Accessor_1",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Accessor"
+    },
+    {
+      "s": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "o": "http://www.ease-crc.org/ont/SOMA.owl#Accessor_1"
+    }
+
+  ],
+  [{
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#isPerformedBy",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson_CTYBCZBF"
+  },
+  {
+      "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+      "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "o": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1"
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA.owl#Reaching_RGSIZHNK",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#Reaching"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#Reaching_RGSIZHNK"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_NOBUTREG",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_NOBUTREG"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_NOBUTREG",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalBegin",
+    "o": 1674729315
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_NOBUTREG",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalEnd",
+    "o": 1674729318
+  },
+
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#isPerformedBy",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson_CTYBCZBF"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#GraspedObject"
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA.owl#Grasping_HXUPQLZY",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#Grasping"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#Grasping_HXUPQLZY"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LHCLZVAA",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LHCLZVAA"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LHCLZVAA",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalBegin",
+    "o": 1674729318
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_LHCLZVAA",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalEnd",
+    "o": 1674729327
+  },
+  
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#isPerformedBy",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson_CTYBCZBF"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#right_hand_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle1_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle2_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle3_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle4_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle5_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle6_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle7_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle8_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle9_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle10_1"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#TopRightDirection_1"
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA.owl#Pouring_VUBVQCXD",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ease-crc.org/ont/SOMA-ACT.owl#Pouring"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#Pouring_VUBVQCXD"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_MQKPOACL",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_MQKPOACL"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_MQKPOACL",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalBegin",
+    "o": 1674729322
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval_MQKPOACL",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#hasIntervalEnd",
+    "o": 1674729325
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
+    "o": "http://www.ease-crc.org/ont/SOMA.owl#TopRightDirection_1",
+    "scope": {
+          "time": {
+            "since": 1674729322,
+            "until": 1674729325
+          }
+    }
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointPositionMax_MQKPOACL",
+    "p": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#hasJointPositionMax",
+    "o": 145
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointPositionMin_MQKPOACL",
+    "p": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#hasJointPositionMin",
+    "o": 110
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointPositionMin_MQKPOACL",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointLimit"
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointPositionMax_MQKPOACL",
+    "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointLimit"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
+    "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointPositionMax_MQKPOACL",
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
+    "o": "http://www.ease-crc.org/ont/SOMA-OBJ.owl#JointPositionMin_MQKPOACL",
+  },
+  {
+    "s": "http://www.ease-crc.org/ont/SOMA.owl#TiltingMotion_1",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#classifies",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR"
+  },
+
+
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_GHIWSFFF"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_UHXPCWNG"
+  },
+  {
+    "s": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_FZCBOOKP",
+    "p": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
+    "o": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action_AFPVXICR"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle1_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle2_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle3_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle4_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle5_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle6_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle7_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle8_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle9_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle10_1"
+  },
+
+
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle1_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle2_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle3_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle4_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle5_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle6_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle7_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle8_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle9_1"
+  },
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#SM_BigBowl_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle10_1"
+  },
+
+  {
+    "s": "http://knowrob.org/kb/iai-apartment.owl#jeroen_cup_1",
+    "p": "http://www.ease-crc.org/ont/SOMA.owl#contains",
+    "o": "http://knowrob.org/kb/iai-apartment.owl#particle10_1"
+  }
+
+  ]
+]

@@ -1,0 +1,54 @@
+0. ~/catkin_ws/src$ roslaunch rosbridge_server rosbridge_websocket.launch
+
+We need this in order to connect with Unreal from Windows side.
+
+1. ~/catkin_ws/src$ roslaunch knowrob knowrob.launch
+
+2. ~/catkin_ws/src$ roslaunch bielefeld_study_neem/launch/rviz_launch_map.launch 
+This will launch the apartment map in RVIZ with proper assets required for pouring.
+
+3. ~/catkin_ws/src$ rosrun  rosprolog rosprolog_commandline.py 
+
+3.1 ~/catkin_ws/src/neem_interface_python/src$ ./bootstrap.sh
+
+
+4. Stop the VR game. And now close the 
+~/catkin_ws/src$ roslaunch bielefeld_study_neem/launch/rviz_launch_map.launch 
+
+Now go to MongoDb and check if the tf messages are logged by KnowRob properly and all frames are there, such as some of the apartment frames aswell.
+
+
+
+Then open new Rviz window with
+~/catkin_ws/src$ rviz rviz -d rviz.rviz 
+
+Then in rosprolog console,
+?- knowrob_load_neem('')
+tf_plugin:tf_republish_set_goal(1674729315, 1674729329)
+Find out start and end time stamps from the tf messages first and last frames. This should start the animation. Then work upon triples file.
+
+// now load an owl
+load_owl('/home/user/catkin_init_ws/src/bielefeld_study_neem/owl/iai-apartment.owl')
+lang_db:load_json_rdf('/home/avyas/catkin_ws/src/pouring_apartment_neem/triples/triples.json')
+?- memorize('/home/avyas/catkin_ws/src/pouring_apartment_neem/NEEM-1/')
+
+//////////////// connect to remote server ///////////////////
+1. ssh robo@neem-data.informatik.uni-bremen.de
+2. robo@neem-data:~$ cd /localdata/web/data/kinematics/
+
+3. Copy individual file urdf to kinematics folder
+
+3.1: cd to local folder first such as: 
+	- cd ~/catkin_ws/src/kitchenClash/urdf/
+	- then use scp:: scp pouring_apartment.urdf robo@neem-data:/localdata/web/data/kinematics
+	- PW: you dont need a pw for this.. if you are in uni network
+
+4. copy an entire folder from local directory to remote directory
+e.g. 
+
+scp -r iai_student_robot robo@neem-data:/localdata/web/data/ 
+provide pw: 
+
+5. remove file from server
+rm filename
+ 
