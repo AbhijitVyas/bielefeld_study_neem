@@ -233,6 +233,21 @@ roslaunch rosbridge_server rosbridge_websocket.launch
 
 ---
 
+### **🌉 Step 7: Clone IAI Maps**  
+🔹 This repo contains the apartment and other maps. Clone it inside your **catkin workspace**:  
+
+```bash
+cd ~/catkin_ws/src
+git clone git@github.com:code-iai/iai_maps.git
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+```
+
+✅ **Double-check:** The repo should be inside `~/catkin_ws/src` and properly built. 
+
+---
+
 ### **🎯 Final Check: Is Everything Ready?**  
 Before moving on, confirm these are installed and running:  
 ✅ **ROS Noetic** and **catkin workspace** (`catkin_ws`)  
